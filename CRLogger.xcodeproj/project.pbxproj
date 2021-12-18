@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		99644A67276E284200A90875 /* CRLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99644A66276E284200A90875 /* CRLogger.swift */; };
-		9987BF03276E1B1200EC965B /* CRLogger.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9987BF02276E1B1200EC965B /* CRLogger.docc */; };
 		9987BF04276E1B1200EC965B /* CRLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 9987BF01276E1B1200EC965B /* CRLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B90C133D7565AD1B8BA3618F /* Pods_CRLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE410F8A6BC8633FC72E188 /* Pods_CRLogger.framework */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		99644A66276E284200A90875 /* CRLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRLogger.swift; sourceTree = "<group>"; };
 		9987BEFE276E1B1200EC965B /* CRLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9987BF01276E1B1200EC965B /* CRLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRLogger.h; sourceTree = "<group>"; };
-		9987BF02276E1B1200EC965B /* CRLogger.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CRLogger.docc; sourceTree = "<group>"; };
 		BEE410F8A6BC8633FC72E188 /* Pods_CRLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1114A7AC56EA22D26E22803 /* Pods-CRLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRLogger.debug.xcconfig"; path = "Target Support Files/Pods-CRLogger/Pods-CRLogger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				9987BF01276E1B1200EC965B /* CRLogger.h */,
-				9987BF02276E1B1200EC965B /* CRLogger.docc */,
 				99644A66276E284200A90875 /* CRLogger.swift */,
 			);
 			path = CRLogger;
@@ -186,7 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				99644A67276E284200A90875 /* CRLogger.swift in Sources */,
-				9987BF03276E1B1200EC965B /* CRLogger.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
